@@ -31,3 +31,16 @@
   .slider-thumb:hover::-moz-range-thumb {
     background: #ff7d4d;
   }
+
+
+  .slider-thumb::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+  }
+  
+  @media (min-width: 640px) {
+    .slider-thumb::-webkit-slider-thumb {
+      width: 20px;
+      height: 20px;
+    }
+  }
